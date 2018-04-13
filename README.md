@@ -12,3 +12,5 @@ In your `~/.vimrc` file:
 ```vimrc
 colorscheme rupza
 ```
+
+[vundle]: https://github.com/VundleVim/Vundle.vim#about
