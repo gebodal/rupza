@@ -48,10 +48,10 @@ hi Comment guifg=#878587 guibg=NONE guisp=NONE gui=NONE ctermfg=102 ctermbg=NONE
 hi Character guifg=#DAC5FF guibg=#141414 guisp=#141414 gui=NONE ctermfg=183 ctermbg=233 cterm=NONE
 hi Number guifg=#ffaa42 guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi Boolean guifg=#FF6262 guibg=NONE guisp=NONE gui=NONE ctermfg=9 ctermbg=NONE cterm=NONE
-hi Operator guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi Operator guifg=#FEFFBA guibg=NONE guisp=NONE gui=NONE ctermfg=229 ctermbg=NONE cterm=NONE " This one governs 'in or and' etc. in Python
 hi Question guifg=#60FF5C guibg=NONE guisp=NONE gui=NONE ctermfg=83 ctermbg=NONE cterm=NONE
 hi DiffDelete guifg=#FF0000 guibg=#1D1D1D guisp=#1D1D1D gui=NONE ctermfg=196 ctermbg=234 cterm=NONE
-hi ModeMsg guifg=#60FF5C guibg=NONE guisp=NONE gui=NONE ctermfg=83 ctermbg=NONE cterm=NONE
+hi ModeMsg guifg=##afaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=143 ctermbg=NONE cterm=NONE " Controls colour of '-- INSERT --' message
 hi Define guifg=#FFA41B guibg=NONE guisp=NONE gui=NONE ctermfg=208 ctermbg=NONE cterm=NONE
 hi Function guifg=#faac0f guibg=NONE guisp=NONE gui=NONE ctermfg=214 ctermbg=NONE cterm=NONE
 hi FoldColumn guifg=#9e9e9e guibg=#242424 guisp=#242424 gui=bold ctermfg=247 ctermbg=235 cterm=bold
