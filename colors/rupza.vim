@@ -78,3 +78,12 @@ hi Underlined guifg=#20b0eF guibg=NONE guisp=NONE gui=NONE ctermfg=39 ctermbg=NO
 hi DiffAdd guifg=#07AF07 guibg=#1D1D1D guisp=#1D1D1D gui=NONE ctermfg=34 ctermbg=234 cterm=NONE
 hi cursorim guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
 hi lcursor guifg=#ffdab9 guibg=#000000 guisp=#000000 gui=NONE ctermfg=223 ctermbg=NONE cterm=NONE
+
+" Colours for the csv.vim plugin
+hi CSVColumnEven guifg=#FFFFFF guibg=#242424 guisp=#242424 gui=NONE ctermfg=15 ctermbg=235 cterm=NONE
+hi CSVColumnOdd  guifg=#FFFFFF guibg=#242424 guisp=#242424 gui=NONE ctermfg=15 ctermbg=235 cterm=NONE
+hi CSVColumnHeaderEven guifg=#FFFFFF guibg=#242424 guisp=#242424 gui=NONE ctermfg=15 ctermbg=235 cterm=bold
+hi CSVColumnHeaderOdd guifg=#FFFFFF guibg=#242424 guisp=#242424 gui=NONE ctermfg=15 ctermbg=235 cterm=bold
+
+
+
