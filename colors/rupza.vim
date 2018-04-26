@@ -80,10 +80,10 @@ hi cursorim guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 cterm
 hi lcursor guifg=#ffdab9 guibg=#000000 guisp=#000000 gui=NONE ctermfg=223 ctermbg=NONE cterm=NONE
 
 " Colours for the csv.vim plugin
-hi CSVColumnEven guifg=#FFFFFF guibg=#585858 guisp=#242424 gui=NONE ctermfg=15 ctermbg=240 cterm=NONE
+hi CSVColumnEven guifg=#FFFFFF guibg=#3a3a3a guisp=#242424 gui=NONE ctermfg=15 ctermbg=237 cterm=NONE
 hi CSVColumnOdd  guifg=#FFFFFF guibg=#242424 guisp=#242424 gui=NONE ctermfg=15 ctermbg=235 cterm=NONE
-hi CSVColumnHeaderEven guifg=#FFFFFF guibg=#ffaf5f guisp=#242424 gui=NONE ctermfg=15 ctermbg=215 cterm=bold
-hi CSVColumnHeaderOdd guifg=#FFFFFF guibg=#ffaf5f guisp=#242424 gui=NONE ctermfg=15 ctermbg=215 cterm=bold
+hi CSVColumnHeaderEven guifg=#FFFFFF guibg=#875f00 guisp=#242424 gui=NONE ctermfg=15 ctermbg=94 cterm=bold
+hi CSVColumnHeaderOdd guifg=#FFFFFF guibg=#875f00 guisp=#242424 gui=NONE ctermfg=15 ctermbg=94 cterm=bold
 
 
 
