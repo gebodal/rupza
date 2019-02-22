@@ -17,6 +17,8 @@ let g:colors_name = "rupza"
 
 hi Normal guifg=#FFFFFF guibg=#242424 guisp=#242424 gui=NONE ctermfg=15 ctermbg=235 cterm=NONE
 
+hi SignColumn guifg=#FFFFFF guibg=#242424 guisp=#242424 gui=NONE ctermfg=None ctermbg=233 cterm=NONE
+
 hi IncSearch guifg=#111214 guibg=#fcfcfc guisp=#fcfcfc gui=underline ctermfg=233 ctermbg=15 cterm=underline
 hi SpecialComment guifg=#466EFF guibg=NONE guisp=NONE gui=NONE ctermfg=69 ctermbg=NONE cterm=NONE
 hi Typedef guifg=#FEFFBA guibg=NONE guisp=NONE gui=NONE ctermfg=229 ctermbg=NONE cterm=NONE
