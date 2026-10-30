@@ -28,7 +28,6 @@ hi PreCondit guifg=#FFA41B guibg=NONE guisp=NONE gui=NONE ctermfg=208 ctermbg=NO
 hi Include guifg=#FFA41B guibg=NONE guisp=NONE gui=NONE ctermfg=208 ctermbg=NONE cterm=NONE
 hi StatusLineNC guifg=#696969 guibg=#ffffff guisp=#ffffff gui=NONE ctermfg=242 ctermbg=15 cterm=NONE
 hi NonText guifg=#A6A6A6 guibg=#222222 guisp=#222222 gui=NONE ctermfg=248 ctermbg=235 cterm=NONE
-hi DiffText guifg=#828282 guibg=#1D1D1D guisp=#1D1D1D gui=underline ctermfg=8 ctermbg=234 cterm=underline
 hi ErrorMsg guifg=#FFFFFF guibg=#FF0000 guisp=#FF0000 gui=NONE ctermfg=15 ctermbg=196 cterm=NONE
 hi Ignore guifg=#666666 guibg=NONE guisp=NONE gui=NONE ctermfg=241 ctermbg=NONE cterm=NONE
 hi Debug guifg=#466EFF guibg=NONE guisp=NONE gui=NONE ctermfg=69 ctermbg=NONE cterm=NONE
@@ -52,7 +51,6 @@ hi Number guifg=#ffaa42 guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE 
 hi Boolean guifg=#FF6262 guibg=NONE guisp=NONE gui=NONE ctermfg=9 ctermbg=NONE cterm=NONE
 hi Operator guifg=#FEFFBA guibg=NONE guisp=NONE gui=NONE ctermfg=229 ctermbg=NONE cterm=NONE " This one governs 'in or and' etc. in Python
 hi Question guifg=#60FF5C guibg=NONE guisp=NONE gui=NONE ctermfg=83 ctermbg=NONE cterm=NONE
-hi DiffDelete guifg=#FF0000 guibg=#1D1D1D guisp=#1D1D1D gui=NONE ctermfg=196 ctermbg=234 cterm=NONE
 hi ModeMsg guifg=#afaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=143 ctermbg=NONE cterm=NONE " Controls colour of '-- INSERT --' message
 hi Define guifg=#FFA41B guibg=NONE guisp=NONE gui=NONE ctermfg=208 ctermbg=NONE cterm=NONE
 hi Function guifg=#faac0f guibg=NONE guisp=NONE gui=NONE ctermfg=214 ctermbg=NONE cterm=NONE
@@ -64,7 +62,6 @@ hi VertSplit guifg=#B8B8B8 guibg=#373737 guisp=#373737 gui=NONE ctermfg=250 cter
 hi Exception guifg=#FEFFBA guibg=NONE guisp=NONE gui=NONE ctermfg=229 ctermbg=NONE cterm=NONE
 hi Keyword guifg=#FEFFBA guibg=NONE guisp=NONE gui=NONE ctermfg=229 ctermbg=NONE cterm=NONE
 hi Type guifg=#ff4f4f guibg=NONE guisp=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
-hi DiffChange guifg=#8c878c guibg=NONE guisp=NONE gui=underline ctermfg=245 ctermbg=NONE cterm=underline
 hi Cursor guifg=#e8e8e8 guibg=#3c3c3d guisp=#3c3c3d gui=NONE ctermfg=254 ctermbg=237 cterm=NONE
 hi PMenu guifg=#5A5A5A guibg=#A8FF97 guisp=#A8FF97 gui=NONE ctermfg=240 ctermbg=120 cterm=NONE
 hi Constant guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
@@ -77,15 +74,17 @@ hi Directory guifg=#94948a guibg=NONE guisp=NONE gui=underline ctermfg=246 cterm
 hi Structure guifg=#FEFFBA guibg=NONE guisp=NONE gui=NONE ctermfg=229 ctermbg=NONE cterm=NONE
 hi Macro guifg=#FFA41B guibg=NONE guisp=NONE gui=NONE ctermfg=208 ctermbg=NONE cterm=NONE
 hi Underlined guifg=#20b0eF guibg=NONE guisp=NONE gui=NONE ctermfg=39 ctermbg=NONE cterm=NONE
-hi DiffAdd guifg=#07AF07 guibg=#1D1D1D guisp=#1D1D1D gui=NONE ctermfg=34 ctermbg=234 cterm=NONE
 hi cursorim guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
 hi lcursor guifg=#ffdab9 guibg=#000000 guisp=#000000 gui=NONE ctermfg=223 ctermbg=NONE cterm=NONE
+
+" Vim diff colours
+hi DiffAdd    guifg=NONE guibg=#293D30 gui=NONE ctermfg=NONE ctermbg=22 cterm=NONE
+hi DiffDelete guifg=NONE guibg=#44282D gui=NONE ctermfg=NONE ctermbg=52 cterm=NONE
+hi DiffChange guifg=NONE guibg=#303447 gui=NONE ctermfg=NONE ctermbg=237 cterm=NONE
+hi DiffText   guifg=NONE guibg=#405477 gui=NONE ctermfg=NONE ctermbg=58 cterm=NONE
 
 " Colours for the csv.vim plugin
 hi CSVColumnEven guifg=#FFFFFF guibg=#3a3a3a guisp=#242424 gui=NONE ctermfg=15 ctermbg=237 cterm=NONE
 hi CSVColumnOdd  guifg=#FFFFFF guibg=#242424 guisp=#242424 gui=NONE ctermfg=15 ctermbg=235 cterm=NONE
 hi CSVColumnHeaderEven guifg=#FFFFFF guibg=#875f00 guisp=#242424 gui=NONE ctermfg=15 ctermbg=94 cterm=bold
 hi CSVColumnHeaderOdd guifg=#FFFFFF guibg=#875f00 guisp=#242424 gui=NONE ctermfg=15 ctermbg=94 cterm=bold
-
-
-
